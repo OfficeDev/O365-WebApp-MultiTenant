@@ -14,7 +14,11 @@ From your Git Shell or command line:
 
 `git clone https://github.com/OfficeDev/O365-WebApp-MultiTenant.git`
 
-## Step 2: Configure the sample
+## Step 2: Build the Project
+To restore NuGet packages, simply Build the project.
+Ignore any build errors for now as we will configure the project in the next steps.
+
+## Step 3: Configure the sample
 Once downloaded, open the sample in Visual Studio.
 
 ### Register Azure AD application to consume Office 365 APIs
@@ -37,7 +41,7 @@ After clicking OK in the Services Manager dialog box, Office 365 client librarie
 
 In this process, Office 365 API tool registered an Azure AD Application in the Office 365 tenant that you signed in the wizard and added the Azure AD application details to web.config. 
 
-### Step 3: Build and Debug your web application
+### Step 4: Build and Debug your web application
 Now you are ready for a test run. Hit F5 to test the app.
 
 ### Quick Look at the SSO Authentication Code
