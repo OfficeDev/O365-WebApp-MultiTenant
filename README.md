@@ -6,8 +6,8 @@ This sample shows how to build an MVC web application that uses Azure AD for sig
 ## How to Run this Sample
 To run this sample, you need:
 1. Visual Studio 2013
-2. Office 365 API Tools for Visual Studio 2013
-3. Office 365 Developer Subscription
+2. [Office 365 API Tools for Visual Studio 2013](https://visualstudiogallery.msdn.microsoft.com/7e947621-ef93-4de7-93d3-d796c43ba34f)
+3. [Office 365 Developer Subscription](https://portal.office.com/Signup/Signup.aspx?OfferId=6881A1CB-F4EB-4db3-9F18-388898DAF510&DL=DEVELOPERPACK&ali=1)
 
 ## Step 1: Clone or download this repository
 From your Git Shell or command line:
@@ -15,8 +15,9 @@ From your Git Shell or command line:
 `git clone https://github.com/OfficeDev/O365-WebApp-MultiTenant.git`
 
 ## Step 2: Build the Project
-To restore NuGet packages, simply Build the project.
-Ignore any build errors for now as we will configure the project in the next steps.
+1. Open the project in Visual Studio 2013.
+2. Simply Build the project to restore NuGet packages.
+3. Ignore any build errors for now as we will configure the project in the next steps.
 
 ## Step 3: Configure the sample
 Once downloaded, open the sample in Visual Studio.
