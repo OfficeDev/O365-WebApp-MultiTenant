@@ -37,6 +37,7 @@ Using the Office 365 API Tool for Visual Studio you can configure your web appli
 7. In the **Users and Groups Permissions** dialog, select **Enable sign-on and read users** profiles' and click **Apply**
 8. Select **Contacts** and then click **Permissions**
 9. In the **Contacts Permissions** dialog, select **Read users' contacts** and click **Apply**
+10. Click on **App Properties** and select **Multiple Organizations** to make this app multi-tenant.
 10. Click **Ok**
 
 After clicking OK in the Services Manager dialog box, Office 365 client libraries (in the form of NuGet packages) for connecting to Office 365 APIs will be added to your project. 
