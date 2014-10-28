@@ -33,7 +33,7 @@ Using the Office 365 API Tool for Visual Studio you can configure your web appli
 5. Initially, no permissions will be selected, as the app is not registered to consume any services yet.
 6. Select **Users and Groups** and then click **Permissions**
 7. In the **Users and Groups Permissions** dialog, select **Enable sign-on and read users** profiles' and click **Apply**
-8. Select**Contacts** and then click **Permissions**
+8. Select **Contacts** and then click **Permissions**
 9. In the **Contacts Permissions** dialog, select **Read users' contacts** and click **Apply**
 10. Click **Ok**
 
