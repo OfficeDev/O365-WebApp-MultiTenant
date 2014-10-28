@@ -1,0 +1,37 @@
+﻿@model IEnumerable<O365_WebApp_MultiTenant.Models.MyContact>
+
+<h2>My Contacts Demo</h2>
+
+@if (ViewBag.ErrorMessage == "AuthorizationRequired")
+{
+    <p>Failed to read your contacts. Click @Html.ActionLink("here", "RefreshSession", "Account", new { redirect = "Contacts" }, null) to sign-in or @Html.ActionLink("here", "ConsentApp", "Account", new { redirect = "Contacts", resource = ViewBag.ResourceId }, null) to consent the app and try again.</p>
+}
+else
+{
+    <p>
+        @Html.ActionLink("Create New", "Create")
+    </p>
+    <table class="table">
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Name)
+            </th>
+            <th></th>
+        </tr>
+
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Name)
+                </td>
+                <td>
+                    @Html.ActionLink("Edit", "Edit", new { /* id=item.PrimaryKey */ }) |
+                    @Html.ActionLink("Details", "Details", new { /* id=item.PrimaryKey */ }) |
+                    @Html.ActionLink("Delete", "Delete", new { /* id=item.PrimaryKey */ })
+                </td>
+            </tr>
+        }
+
+    </table>
+}
