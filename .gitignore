@@ -1,4 +1,4 @@
 *.suo
-O365-WebApp-MultiTenant\packages
-O365-WebApp-MultiTenant\O365-WebApp-MultiTenant\bin
-O365-WebApp-MultiTenant\O365-WebApp-MultiTenant\obj
+O365-WebApp-MultiTenant/packages
+O365-WebApp-MultiTenant/O365-WebApp-MultiTenant/bin
+O365-WebApp-MultiTenant/O365-WebApp-MultiTenant/obj
