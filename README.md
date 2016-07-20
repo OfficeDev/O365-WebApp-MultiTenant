@@ -14,7 +14,7 @@ To run this sample, you need:
 
 1. Visual Studio 2013
 2. [Office 365 API Tools for Visual Studio 2013](http://aka.ms/OfficeDevToolsForVS2013)
-3. [Office 365 Developer Subscription](https://portal.office.com/Signup/Signup.aspx?OfferId=6881A1CB-F4EB-4db3-9F18-388898DAF510&DL=DEVELOPERPACK&ali=1)
+3. [Office 365 Developer Subscription](https://aka.ms/devprogramsignup)
 
 ## Step 1: Clone or download this repository
 From your Git Shell or command line:
