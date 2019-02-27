@@ -1,3 +1,19 @@
+---
+topic: sample
+products:
+- SharePoint
+- Office 365
+languages:
+- C#
+extensions:
+  contentType: samples
+  technologies:
+  - Azure AD
+  - OAuth 2.0
+  createdDate: 10/25/2014 8:05:58 PM
+  scenarios:
+  - Connect
+---
 Office 365 APIs MultiTenant Web Application
 ============================================
 
